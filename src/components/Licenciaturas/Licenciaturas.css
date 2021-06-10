@@ -1,0 +1,19 @@
+.content-lic {
+  align-items: center;
+  background-color: #f7f7f7;
+  margin-left: auto;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 60px;
+  text-align: left;
+  float: left;
+  padding-top: 500px;
+  background-color: #f7f7f7;
+}
+.btn-req {
+}
