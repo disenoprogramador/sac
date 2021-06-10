@@ -9,14 +9,12 @@ class Navbar extends Component{
     state={clicked:false}
 
     render(){
-        return(
+        return( 
             <nav className="NavbarItems">
                 
-                <img className="navbar-logo" src={logoAut} alt="logo"/>
+                <img className="navbar-logo-aut" src={logoAut} alt="logo"/>
                 <img className="navbar-logo" src={logoSAC} alt="logosac"/>
-                <div className="menu-icon" onClick={this.handleClick}>
-                    <i className={this.state.clicked ?'fas fa-times':'fas fa-bars'  }></i>
-                </div>
+                
                 <ul className="nav-menu">
                     {MenuItems.map((item,index)=>{
                         return(
@@ -24,12 +22,13 @@ class Navbar extends Component{
                                  <a className={item.cName} href={item.url}>
                                      {item.title}
                                  </a>
+                                
                             </li>
                         )
                     })}
                         
                 </ul>
-                <button onClick ={this.handleClick} className="btn-misC">Mis clases</button>
+                <button onClick ={this.handleClick} className="btn-misC"> Mis clases </button>
                 <button onClick ={this.handleClick} className="btn-Reg">Registro</button>
             </nav>
         )

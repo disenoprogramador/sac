@@ -7,12 +7,22 @@
   font-size: 1.2rem;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
+.navbar-logo-aut {
+  color: azure;
+  justify-self: start;
+  margin-left: 100px;
+  cursor: pointer;
+  width: 145px;
+  height: 100px;
+  align-items: left;
+  margin-top: -20px;
+}
 .navbar-logo {
   color: azure;
   justify-self: start;
   margin-left: 10px;
   cursor: pointer;
-  width: 115px;
+  width: 145px;
   height: 100px;
   align-items: left;
   margin-top: -20px;
@@ -41,7 +51,7 @@
 }
 
 .btn-misC {
-  margin-top: 10px;
+  margin-top: 13px;
   justify-content: right;
   width: 100px;
   height: 30px;
@@ -52,7 +62,7 @@
 }
 
 .btn-Reg {
-  margin-top: 10px;
+  margin-top: 13px;
   justify-content: right;
   width: 100px;
   height: 30px;
@@ -60,4 +70,5 @@
   color: azure;
   margin-left: 10px;
   border: none;
+  margin-right: 30px;
 }
