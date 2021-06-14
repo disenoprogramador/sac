@@ -24,10 +24,6 @@
   margin-top: 100px;
   height: 820px;
   width: 100%;
-  clear: center;
-  align-content: center;
-  margin: 0 auto;
-  align-items: center;
 }
 .video-index {
   height: 600px;
@@ -45,6 +41,7 @@
   align-items: center;
   margin-top: 20px;
   padding-bottom: 100px;
+  width: 100%;
 }
 .titulo_content2 {
   width: 472px;
@@ -60,64 +57,25 @@
   line-height: 62px;
   position: relative;
 }
-.text_1 {
-  background-color: black;
-  color: #ffffff;
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 45px;
+  list-style: none;
   text-align: left;
-  position: absolute;
-  line-height: 120%;
-  margin-top: 15px;
-}
+  width: 100%;
 
-.cont_1 {
-  z-index: 45;
-  width: 377px;
+  justify-content: center;
 
-  line-height: 30px;
-  color: #ffffff;
-  font-size: 25px;
-  position: absolute;
-  margin-right: -10000px;
-  left: 35px;
+  color: white;
 }
-.cont_2 {
-  z-index: 49;
+.items > ul {
   width: 377px;
-  min-height: 29px;
-  background-color: transparent;
-  line-height: 30px;
-  color: #ffffff;
-  font-size: 25px;
-  position: absolute;
-  margin-right: -10000px;
-  left: 446px;
-}
-h1 {
-  font-size: 25px;
-}
-
-.cont_3 {
-  z-index: 53;
-  width: 377px;
-  min-height: 29px;
-  background-color: transparent;
-  line-height: 30px;
-  color: #ffffff;
-  font-size: 25px;
+  height: 677px;
+  overflow: hidden;
+  margin: auto;
   position: relative;
-  margin-right: -10000px;
-  left: 851px;
-}
-.content2-img {
-  z-index: 42;
-  width: 377px;
-  height: 377px;
-  opacity: 1;
-  filter: alpha(opacity=100);
-  position: relative;
-  margin-right: -10000px;
-  background: #ffffff no-repeat center center;
-  background-size: cover;
 }
 .container-imagen {
   width: 377px;
@@ -125,7 +83,6 @@ h1 {
   overflow: hidden;
   margin: 10px;
   position: relative;
-  z-index: 42;
 }
 .container-imagen > .crop {
   position: absolute;
@@ -138,15 +95,33 @@ h1 {
   min-width: 100%;
   transform: scale(0.7, 0.7);
 }
+
+.content2-img {
+  width: 377px;
+  height: 377px;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  position: relative;
+  margin-right: -10000px;
+  background: #ffffff no-repeat center center;
+  background-size: cover;
+}
+
+.items > p {
+  margin-top: 10px;
+}
+
 .content-3 {
   padding-top: 200px;
   margin-left: 100px;
+  width: 100%;
 }
 .content-3 > p {
   font-size: 60px;
   text-align: left;
   float: left;
   padding-top: 500px;
+  margin-left: 100px;
 }
 .container3-img {
   width: 620px;
@@ -154,7 +129,6 @@ h1 {
   overflow: hidden;
   margin: auto;
   position: relative;
-  z-index: 42;
 }
 .container3-img > .crop {
   position: absolute;
@@ -166,4 +140,9 @@ h1 {
   min-height: 100%;
   min-width: 100%;
   float: right;
+}
+
+.content > h1 {
+  font-size: 35px;
+  font-style: bold;
 }
