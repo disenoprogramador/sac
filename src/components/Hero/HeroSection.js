@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import sacIniciales from './logo_sac_iniciales.svg';
-import img from './shutterstock_1281909184.jpg'
 
 import './HeroSection.css'
 
