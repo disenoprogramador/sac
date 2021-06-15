@@ -22,8 +22,9 @@
 }
 .video-container {
   margin-top: 100px;
-  height: 820px;
+  height: 1200px;
   width: 100%;
+  position: absolute;
 }
 .video-index {
   height: 600px;
@@ -44,12 +45,13 @@
   width: 100%;
 }
 .titulo_content2 {
-  width: 472px;
+  width: 100%;
   background-color: transparent;
   font-weight: bold;
   margin-left: 100px;
   padding-top: 40px;
   padding-bottom: 30px;
+  position: relative;
 }
 .titulo_content2 > p {
   color: #ffffff;
@@ -65,7 +67,7 @@
   list-style: none;
   text-align: left;
   width: 100%;
-
+  margin-left: 60px;
   justify-content: center;
 
   color: white;
@@ -108,7 +110,7 @@
 }
 
 .items > p {
-  margin-top: 10px;
+  margin-top: 100px;
 }
 
 .content-3 {

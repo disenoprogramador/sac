@@ -6,7 +6,7 @@ import digital_content from './digitalcontent-u115102-fr.jpg';
 import avalados_SEP from './avalados_sep-u116731-fr.jpg'
 import transformando from './shutterstock_1732105081.jpg'
 
-function FadeSection(props) {
+function FadeSection(props) {{/* aqui esta la parte que hace el efecto del video  */}
     const [isVisible, setVisible] = React.useState(false);
   const domRef = React.useRef();
   React.useEffect(() => {
@@ -32,7 +32,7 @@ function FadeSection(props) {
 
 
 
-function Content() {
+function Content() {{/*este es el video */}
     return (
       <div className="content" >
         <FadeSection className="video-container">
@@ -42,7 +42,7 @@ function Content() {
 
         </FadeSection>
           
-        <div className="content-2">
+        <div className="content-2">{/*este es titulo y toda la seccion en negro  */} 
           <div className="titulo_content2"> <p >  Revoluciónate</p>  </div>
             
           
@@ -65,7 +65,7 @@ function Content() {
                 </div>
                 <div>
                   <h1>Contenidos digitales </h1>
-                  <p className="">La Universidad ha trabajado la edición de un libro LBS por cada materia, el cual desarrolla de manera completa el programa académico, siendo éste, tu material principal de trabajo, ofreciéndote contenidos de excelente calidad, elaborado por nuestros propios docentes. Por lo que toda la información estará a tu disposición desde el momento en que inicies tus clases.</p>
+                  <p className="parrafo">La Universidad ha trabajado la edición de un libro LBS por cada materia, el cual desarrolla de manera completa el programa académico, siendo éste, tu material principal de trabajo, ofreciéndote contenidos de excelente calidad, elaborado por nuestros propios docentes. Por lo que toda la información estará a tu disposición desde el momento en que inicies tus clases.</p>
                 
               </div>
               </ul>
@@ -82,7 +82,7 @@ function Content() {
           </li>
           
         </div>
-        <div className="content-3">
+        <div className="content-3"> {/*este es la seccion siguiente en blanco  */}
 
           <p >Transformando <br/> la Educación  </p>    
              

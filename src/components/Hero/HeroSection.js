@@ -3,7 +3,7 @@ import sacIniciales from './logo_sac_iniciales.svg';
 
 import './HeroSection.css'
 
-function HeroSection() {
+function HeroSection() { {/* aqui esta la parte de el titulo principal y en el css se manda llamar la imagen de fondo  */}
 
     const [offsetY, setOffsetY] = useState();
     const handleScroll=()=> setOffsetY(window.pageYOffset);

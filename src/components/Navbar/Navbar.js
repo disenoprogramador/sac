@@ -13,7 +13,7 @@ class Navbar extends Component{
 
     render(){
         return( 
-            <nav className="NavbarItems">{/* */}
+            <nav className="NavbarItems">{/* aqui esta la navbar y los iconos laterales  */}
                 
                  <img className="navbar-logo-aut" href='/' src={logoAut} alt="logo"/>
                 <img className="navbar-logo" href='/'src={logoSAC} alt="logosac"/>
@@ -35,10 +35,11 @@ class Navbar extends Component{
                 <button onClick={event =>  window.location.href=''} className="btn-Reg">Registro</button>
                 <div  className="iconos"> 
                     
-                    <a href='/' >  <img className="iconos-laterales"  src={lobo} alt="lobo"/>  </a> 
+                    <a href='/' >  <img className="iconos-laterales"  src={lobo} alt="lobo"/>  </a> <br/>
                     <a href='https://api.whatsapp.com/send/?phone=526181102529&text=Me+interesa+recibir+m%C3%A1s+informaci%C3%B3n+de+las+licenciaturas&app_absent=0'>  <img className="iconos-laterales" src={whatsapp} alt="whatsapp"/> </a>
+                    <br/>
                     <a href='/'> <img className="iconos-laterales" src={index} alt="index"/> </a>
-                
+                    
                 </div>
             </nav>
         )
